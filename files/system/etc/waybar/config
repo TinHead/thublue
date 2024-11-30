@@ -1,0 +1,88 @@
+[
+  {
+  "bluetooth": {
+	"format": " {status}",
+	"format-connected": " {device_alias}",
+	"format-connected-battery": " {device_alias} {device_battery_percentage}%",
+	// "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
+	"tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+	"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+},
+    "cpu": {
+      "format": "{usage}% "
+    },
+    "disk#home": {},
+    "disk#root": {},
+    "height": 30,
+    "idle_inhibitor": {
+      "format": "{icon}",
+      "format-icons": {
+        "activated": "",
+        "deactivated": ""
+      }
+    },
+    "layer": "top",
+    "memory": {
+      "format": "{}% "
+    },
+    "modules-center": [
+      "sway/window"
+    ],
+    "modules-left": [
+      "sway/workspaces"
+    ],
+    "modules-right": [
+      "cpu",
+      "temperature",
+      "memory",
+      "disk",
+      "network",
+      "bluetooth",
+      "pulseaudio",
+      "tray",
+      "clock",
+      "idle_inhibitor"
+    ],
+    "network": {
+      "format-disconnected": "",
+      "format-wifi": "{essid} ({signalStrength}%) "
+    },
+    "output": [
+      "DP-1",
+      "HDMI-A-1"
+    ],
+    "position": "bottom",
+    "pulseaudio": {
+      "format": "{volume}% {icon} {format_source}",
+      "format-bluetooth": "{volume}% {icon} {format_source}",
+      "format-bluetooth-muted": " {icon} {format_source}",
+      "format-icons": {
+        "car": "",
+        "default": [
+          "",
+          "",
+          ""
+        ],
+        "handsfree": "",
+        "headphones": "",
+        "headset": "",
+        "phone": "",
+        "portable": ""
+      },
+      "format-muted": " {format_source}",
+      "format-source": "{volume}% ",
+      "format-source-muted": "",
+      "on-click": "pavucontrol"
+    },
+    "sway/workspaces": {
+      "all-outputs": true,
+      "disable-scroll": false
+    },
+    "temperature": {
+      "format": "{temperatureC}°C ",
+      "hwmon-path": "/sys/class/hwmon/hwmon6/temp2_input"
+    }
+  }
+]

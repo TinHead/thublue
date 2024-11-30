@@ -1,0 +1,39 @@
+- 1.1.13
+- _NAME: PRO X 60
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, onboard_profiles, report_rate_extended, pointer_speed, dpi, dpi_extended, speed-change, backlight, backlight_level, backlight_duration_hands_out,
+    backlight_duration_hands_in, backlight_duration_powered, backlight-timed, led_control, led_zone_, fn-swap, reprogrammable-keys, persistent-remappable-keys,
+    divert-keys, disable-keyboard-keys, crown-smooth, divert-crown, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert,
+    gesture2-params, sidetone, equalizer, adc_power_management, report_rate]
+  _battery: 4100
+  _modelId: B37B40AFC351
+  _sensitive: {brightness_control: true, divert-gkeys: false, per-key-lighting: false, report_rate: true, rgb_control: false, rgb_zone_1: false}
+  _serial: EE405BD9
+  _unitId: EE405BD9
+  _wpid: 40AF
+  brightness_control: 50
+  divert-gkeys: false
+  per-key-lighting: {1: 16753920, 2: 16753920, 3: 16753920, 4: 16753920, 5: 16753920, 6: 16753920, 7: 16753920, 8: 16753920, 9: 25600, 10: 25600, 11: 16776960,
+    12: 25600, 13: 16776960, 14: 16753920, 15: 16753920, 16: 16753920, 17: 16753920, 18: 16753920, 19: 16753920, 20: 16753920, 21: 16753920, 22: 16753920,
+    23: 16753920, 24: 16753920, 25: 16753920, 26: 16753920, 27: 16729344, 28: 16729344, 29: 16729344, 30: 16729344, 31: 16729344, 32: 16729344, 33: 16729344,
+    34: 16729344, 35: 16729344, 36: 16729344, 37: 16711680, 38: 16711680, 39: 16711680, 40: 16711680, 41: -1, 42: 16729344, 43: 16729344, 44: 16753920,
+    45: 16753920, 46: 65280, 47: 16753920, 48: 25600, 49: 25600, 51: 16776960, 52: 16776960, 53: 25600, 54: 16711680, 97: 16711680, 98: 16711680, 99: -1,
+    100: 16711680, 101: -1, 102: -1, 103: -1, 104: 16711680, 105: 16711680, 106: 16711680, 107: 16711680, 108: 16711680, 109: 16711680, 110: 16711680, 111: 16776960}
+  rgb_control: 1
+  rgb_zone_1: !LEDEffectSetting {ID: 1, color: 16753920, intensity: 22, period: 537, ramp: 1, speed: 0}
+- _NAME: ERGO M575 Trackball
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, onboard_profiles, report_rate, report_rate_extended, pointer_speed, dpi_extended, speed-change, backlight, backlight_level, backlight_duration_hands_out,
+    backlight_duration_hands_in, backlight_duration_powered, backlight-timed, led_control, led_zone_, rgb_control, rgb_zone_, brightness_control, per-key-lighting,
+    fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host,
+    gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer, adc_power_management]
+  _battery: 4100
+  _dpi-sliding: 15
+  _modelId: B02740960000
+  _sensitive: {divert-keys: true, dpi: true, reprogrammable-keys: true}
+  _serial: 222B8E07
+  _unitId: 222B8E07
+  _wpid: '4096'
+  divert-keys: {82: 0, 83: 0, 86: 3}
+  dpi: 600
+  reprogrammable-keys: {80: 80, 81: 81, 82: 82, 83: 83, 86: 86}

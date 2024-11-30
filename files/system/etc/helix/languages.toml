@@ -1,0 +1,13 @@
+[language-server.scheme-lsp]
+command = "/home/razvan/.guix-home/profile/bin/guile-lsp-server"
+args = ["--stdio"]
+
+[[language]]
+name = "scheme"
+scope = "source.scheme"
+injection-regex = "scheme"
+file-types = ["scm"]
+roots = []
+comment-token = ";"
+indent = { tab-width = 2, unit = "  " }
+language-servers = ["scheme-lsp"]
