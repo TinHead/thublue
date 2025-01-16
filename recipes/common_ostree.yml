@@ -12,4 +12,5 @@ install:
    - gopass
    - mc
    - solaar
+   - alacritty
 remove: []
