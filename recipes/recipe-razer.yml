@@ -4,7 +4,7 @@ name: thublue-razer
 description: This is my personal OS laptop image..
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/wayblueorg/hyprland-nvidia
+base-image: ghcr.io/wayblueorg/sway-nvidia
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
