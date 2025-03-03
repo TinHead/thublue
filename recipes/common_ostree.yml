@@ -18,5 +18,9 @@ install:
    - mc
    - solaar
    - alacritty
+   - onedrive
+   - binfmt-dispatcher
+   - qemu-user-static
+   - qemu-user-binfmt
 remove: 
    - sway
