@@ -32,4 +32,5 @@ modules:
         - https://openrazer.github.io/hardware:razer.repo
     install:
       packages:
+        - kernel-devel
         - openrazer-meta
