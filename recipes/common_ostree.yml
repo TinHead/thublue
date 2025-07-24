@@ -5,6 +5,8 @@ repos:
    - https://copr.fedorainfracloud.org/coprs/che/nerd-fonts/repo/fedora-%OS_VERSION%/che-nerd-fonts-fedora-%OS_VERSION%.repo
 install:
    - wtype
+   - syncthing
+   - python3-pip
    - rbw
    - wireshark
    - udiskie
