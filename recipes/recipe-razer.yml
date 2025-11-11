@@ -33,4 +33,3 @@ modules:
     install:
       packages:
         - kernel-devel
-        - openrazer-meta
