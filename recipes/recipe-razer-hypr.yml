@@ -1,0 +1,28 @@
+# image will be published to ghcr.io/<user>/<name>
+name: thublue-razer-hypr
+# description will be included in the image's metadata
+description: This is my personal OS laptop image..
+
+# the base image to build on top of (FROM) and the version tag to use
+base-image: ghcr.io/wayblueorg/hyprland-nvidia
+image-version: latest # latest is also supported if you want new updates ASAP
+
+# module configuration, executed in order
+# you can include multiple instances of the same module
+modules:
+  - type: files
+    files:
+      - source: system
+        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+
+      # example: removing firefox (in favor of the flatpak)
+      # "firefox" is the main package, "firefox-langpacks" is a dependency
+      # - firefox
+      # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+  - from-file: common_ostree_hypr.yml
+  - from-file: common_flatpacks.yml
+  - type: signing # this sets up the proper policy & signing files for signed images to work fully
+  - type: chezmoi
+    repository: https://github.com/TinHead/chezmoi-dotfiles.git
+    all-users: true
+    file-conflict-policy: replace
